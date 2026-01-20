@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Layout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="nav-left">
+        <img src="image.png" alt="logo" />
+      </div>
+      <div class="nav-center">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="nav-item active">
+          <i class="fa-solid fa-house"></i>
+          <span class="span1">Home</span>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-user-group"></i>
+          <span class="span1">My Network</span>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <span class="span1">Jobs</span>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-comment-dots"></i>
+          <span class="span1">Messaging</span>
+        </div>
+
+        <div class="nav-item">
+          <i class="fa-solid fa-bell"></i>
+          <span class="span1">Notifications</span>
+        </div>
+
+        <div class="nav-item profile">
+          <i class="fa-solid fa-user-circle"></i>
+          <span class="span1">Me</span>
+        </div>
+        <div class="nav-divider"></div>
+        <div class="nav-item business">
+          <i class="fa-solid fa-grip"></i>
+          <span>For Business <i class="fa-solid fa-caret-down"></i></span>
+        </div>
+
+        <!-- PREMIUM -->
+        <div class="nav-item premium">
+          <img src="prime.jpg" alt="">
+          <span>Try Premium for ₹0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+      <section class="sect1">
+        <div class="profile-card">
+          <img src="background.jpg" class="banner" alt="" />
+          <img src="photo.jpeg" class="profile-img" alt="" />
+
+          <h1>Savita Mali</h1>
+          <p class="desc">
+            Frontend Developer | React JS | JavaScript | HTML | CSS
+          </p>
+          <p>Pune, Maharashtra</p>
+          <h3>Devcons Software Solution Pvt. Ltd</h3>
+        </div>
+
+        <div class="profile-report">
+          <p>Profile viewers <span>100</span></p>
+          <p>View all analytics <span>→</span></p>
+        </div>
+
+        <div class="prime">
+          <p>Access exclusive tools & insights</p>
+          <p class="pri">Try Premium for free</p>
+        </div>
+
+        <div class="options">
+          <a href="#" class="items"
+            ><i class="fa-solid fa-bookmark"></i>Save Item</a
+          >
+          <a href="#" class="items"
+            ><i class="fa-solid fa-people-group"></i>Groups</a
+          >
+          <a href="#" class="items"
+            ><i class="fa-solid fa-newspaper"></i>Newsletters</a
+          >
+          <a href="#" class="items"
+            ><i class="fa-solid fa-calendar"></i>Events</a
+          >
+        </div>
+      </section>
+
+      <section class="feed">
+        <div class="sect2">
+          <div class="post">
+            <img src="photo.jpeg" alt="" class="self1" />
+            <input type="text" placeholder="Start a post" />
+          </div>
+          <div class="post-creat">
+            <p>
+              <i class="fa-solid fa-play"></i>
+              Videos
+            </p>
+            <p>
+              <i class="fa-regular fa-image"></i>
+              Photo
+            </p>
+            <p>
+              <i class="fa-solid fa-envelopes-bulk"></i>
+              Write article
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+        <!-- post -->
+        <div class="post-card">
+          <!-- ACTIVITY HEADER -->
+          <div class="activity-header">
+            <div class="activity-left">
+              <img src="photo.jpeg" alt="profile" />
+              <span><strong>Shraddha Waghmare</strong> commented on this</span>
+            </div>
+
+            <div class="activity-right">
+              <i class="fa-solid fa-ellipsis"></i>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+
+          <!-- POST HEADER -->
+          <div class="post-header">
+            <img src="photo.jpeg" alt="profile" class="post-profile" />
+
+            <div class="post-user">
+              <h4>HR Raghini T.</h4>
+              <span>HR · 1h · 🌐</span>
+            </div>
+
+            <span class="more1">+ Follow</span>
+          </div>
+
+          <!-- Post Text -->
+          <p class="post-caption">
+            Hi All,<br />
+            We are hiring for Multiple Positions...
+            <span class="more-text">more</span>
+          </p>
+
+          <!-- Post Image -->
+          <div class="post-image">
+            <img src="post.jpg" alt="post" />
+          </div>
+
+          <!-- Post Stats -->
+          <div class="post-stats">
+            <span>👍 78</span>
+            <span>43 comments</span>
+          </div>
+
+          <hr />
+
+          <!-- Post Actions -->
+          <div class="post-actions">
+            <button><i class="fa-regular fa-thumbs-up"></i> Like</button>
+            <button><i class="fa-regular fa-comment"></i> Comment</button>
+            <button><i class="fa-solid fa-repeat"></i> Repost</button>
+            <button><i class="fa-regular fa-paper-plane"></i> Send</button>
+          </div>
+        </div>
+        <!-- post2 -->
+        <div class="post-card">
+          <!-- ACTIVITY HEADER -->
+          <div class="activity-header">
+            <div class="activity-left">
+              <img src="photo.jpeg" alt="profile" />
+              <span><strong>Shraddha Waghmare</strong> commented on this</span>
+            </div>
+
+            <div class="activity-right">
+              <i class="fa-solid fa-ellipsis"></i>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+
+          <!-- POST HEADER -->
+          <div class="post-header">
+            <img src="photo1.jpg" alt="profile" class="post-profile" />
+
+            <div class="post-user">
+              <h4>HR Raghini T.</h4>
+              <span>HR · 1h · 🌐</span>
+            </div>
+
+            <span class="more1">+ Follow</span>
+          </div>
+
+          <!-- Post Text -->
+          <p class="post-caption">
+            Hi All,<br />
+            We are hiring for Multiple Positions...
+            <span class="more-text">more</span>
+          </p>
+
+          <!-- Post Image -->
+          <div class="post-image">
+            <img src="post1.jpg" alt="post" />
+          </div>
+
+          <!-- Post Stats -->
+          <div class="post-stats">
+            <span>👍 78</span>
+            <span>43 comments</span>
+          </div>
+
+          <hr />
+
+          <!-- Post Actions -->
+          <div class="post-actions">
+            <button><i class="fa-regular fa-thumbs-up"></i> Like</button>
+            <button><i class="fa-regular fa-comment"></i> Comment</button>
+            <button><i class="fa-solid fa-repeat"></i> Repost</button>
+            <button><i class="fa-regular fa-paper-plane"></i> Send</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="right-sidebar">
+        <!-- LinkedIn News -->
+        <div class="sidebar-card">
+          <div class="sidebar-header">
+            <h4>LinkedIn News</h4>
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+
+          <ul class="news-list">
+            <li>
+              <h5>Top stories</h5>
+            </li>
+
+            <li>
+              <p class="title">The big ideas to shape 2026</p>
+              <span>2d ago · 3,007 readers</span>
+            </li>
+
+            <li>
+              <p class="title">OpenAI doubles down on audio AI</p>
+              <span>1d ago · 11,002 readers</span>
+            </li>
+
+            <li>
+              <p class="title">Top newsletters of the week</p>
+              <span>2d ago · 5,017 readers</span>
+            </li>
+
+            <li>
+              <p class="title">UPI touches year-end high</p>
+              <span>1d ago · 3,510 readers</span>
+            </li>
+
+            <li class="show-more">Show more</li>
+          </ul>
+          <div class="sidebar-card">
+            <h4 class="h4">Today's puzzles games</h4>
+
+            <div class="game-item">
+            <img src="zip.jpeg" alt="">
+              <div>
+                <p>Zip #293</p>
+                <span>Complete the path</span>
+              </div>
+            </div>
+
+            <div class="game-item">
+              <img src="mini.jpg" alt="">
+              <div>
+                <p>Mini Sudoku #146</p>
+                <span>The classic game, mini</span>
+              </div>
+            </div>
+
+            <div class="game-item">
+              <img src="tongo.jpg" alt="">
+              <div>
+                <p>Tango #454</p>
+                <span>Harmonize the grid</span>
+              </div>
+            </div>
+            <div class="game-item">
+              <img src="quees.jpg" alt="">
+              <div>
+                <p>Tango #454</p>
+                <span>Harmonize the grid</span>
+              </div>
+            </div>
+
+            <div class="show-more">Show more</div>
+          </div>
+        </div>
+
+        <!-- Games -->
+
+        <!-- Sponsored -->
+        <div class=" sponsored">
+          <!-- <span class="promoted">Promoted</span>
+          <img src="ad.jpg" alt="ad" />
+
+          <p>
+            <strong>Elbit Systems</strong><br />
+            Want to use AI in defense tech?
+          </p>
+
+          <button>Follow</button> -->
+          <img src="image1.png" alt="">
+           <div class="about">
+           <ul>
+            <li>About</li>
+            <li>Accessibility</li>
+            <li>Help Center</li>
+            <li>Advertising </li>
+            <li>Business Services</li>
+            <li>Get the LinkedIn app</li>
+            <li>More</li>
+           </ul>
+        </div>
+        <div class="footer-copy">
+            <span class="linkedin-logo">Linked<span>in</span></span>
+            <span>LinkedIn Corporation © 2026</span>
+         </div>
+     
+      </section>
+    </main>
+  </body>
+</html>
